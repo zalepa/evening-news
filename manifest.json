@@ -1,0 +1,37 @@
+{
+  "version": "0.3",
+  "name": "Evening News",
+  "description" : "A dark and subtle theme for Chrome based on patterns from subtlepatterns.com",
+  "manifest_version": 2,
+  "theme": {
+    "images" : {
+      
+      "theme_frame" : "images/escheresque_ste.png",
+      "theme_frame_incognito" : "images/escheresque_ste_incognito.png",
+      "theme_frame_incognito_inactive" : "images/escheresque_ste_incognito_inactive.png",
+
+      "theme_toolbar" : "images/white_carbonfiber.png",
+      "theme_tab_background" : "images/white_carbonfiber_inactive.png",
+      "theme_tab_background_incognito" : "images/white_carbonfiber_inactive.png",
+
+      "theme_ntp_background": "images/debut_light.png"
+    },
+    "colors" : {
+      "frame" : [49, 49, 49],
+      "tab_text" : [75,75,75],
+      "tab_background_text" : [70,70,70],
+      "bookmark_text" : [49, 49, 49],
+
+      "ntp_background" : [255,255,255],
+      "ntp_text" : [100, 100, 100],
+      "ntp_header" : [95, 133, 159]
+    },
+    "tints" : {
+      
+    },
+    "properties" : {
+      "ntp_background_repeat" : "repeat",
+      "ntp_background_alignment": "top left"
+    }
+  }
+}
